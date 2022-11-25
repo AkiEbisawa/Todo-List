@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(177,218,226,1) 60%);
+}
+
+.i {
+  padding-top: -30px;
+}
+
+
+ .h1 {
+  text-align: center;
+  width: 80vw;
+  margin: 2rem auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 200px;
+  padding: 2rem ;
+ }
+
+.inputForm {
+  width: 80vh;
+  margin: 0 auto;
+  text-align: center;
+  width: 16.5rem;
+  height: 1.9rem;
+  padding: 0.5rem;
+  border: none;
+  margin-left: 520px;
+  margin-top: -70px;
+  /* position: relative; */
+}
+
+
+
+.todoList {
+  width: 100vw;
+  margin: 2rem auto;
+}
+
+.todo {
+  margin: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+
+.done {
+  border-radius: 0;
+  color: rgb(255, 255, 255);
+  background-color: rgb(125, 203, 51);
+  padding: 0;
+  width: 30px;
+  height: 1.7rem;
+  transition: 0.2s;
+  cursor: pointer;
+  /* border-radius: 10px; */
+  padding-top: 35px;
+}
+
+.trash {
+  border-radius: 0;
+  color: #fff;
+  background-color: rgb(240, 132, 120);
+  padding: 0;
+  width: 30px;
+  height: 1.7rem;
+  transition: 0.2s;
+  cursor: pointer;
+  /* border-radius: 10px; */
+  padding-top: 35px;
+}
+
+.todoText {
+  width: 15rem;
+  min-width: 15rem;
+  max-height: 1.8rem;
+  padding: 0.3rem 4rem;
+  background: white;
+  color: rgb(96, 96, 96);
+  /* border-radius: 10px; */
+  margin-left: 20px;
+}
+
+
+button {
+  border: none;
+}
+
+.logout {
+  text-decoration: none;
+}
+
+.logoutBtn {
+  width: 150px;
+  text-align: center;
+  display: block;
+  margin-left: 600px;
+}
